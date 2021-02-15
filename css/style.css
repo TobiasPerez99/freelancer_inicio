@@ -1,13 +1,43 @@
+:root{
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario:#ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;   
+    
+}
 html{
     font-size: 62.5%;
+
 }
 body{
     font-size: 15px;
+    font-family: 'krub' , sans-serif;
 }
-h1{
+.titulo{
     text-align: center;
     font-size: 3.8rem;
+    color: var(--primario);
 }
-span{
+.titulo span{
     font-size: 2rem;
+    color: blue;
+}
+.contenedor {
+    width: 120rem;
+    margin:0 auto 0 auto;
+}
+.nav-bg{
+    background-color: var(--secundario);
+    text-align: center;
+}
+.navegacion-principal{
+    
+}
+.navegacion-principal a{
+    background-color: var(--primario);
+    ;
+}
+footer{
+    text-align: center;
 }
